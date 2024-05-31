@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/skill-recommendation
+    username: user
+    password: password
+  security:
+    user:
+      name: email
+      password: password
+  liquibase:
+    enabled: false
